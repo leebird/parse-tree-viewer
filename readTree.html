@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://cpettitt.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+<link rel="stylesheet" type="text/css" href="readTree.css">
+</head>
+<body>
+<div id="tree-input">
+<form onsubmit="return draw();">
+<textarea id="sentence" rows="10" cols="80"></textarea> <br />
+<input type="submit" value="draw" />
+</form>
+</div>
+<div id="attach">
+  <svg id="svg-canvas">
+    <g transform="translate(20, 20)"/>
+  </svg>
+</div>
+<script src="readTree.js"></script>
+</body>
+</html>

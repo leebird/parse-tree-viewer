@@ -1,0 +1,52 @@
+.type-TK > .label > rect {
+  fill: #fff;
+}
+
+svg, #attach{
+    height: 100%;
+    width: 100%;
+}
+
+
+svg {
+  border: 1px solid #999;
+}
+
+text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 14px;
+}
+
+rect {
+  fill: #fff;
+}
+
+.node rect {
+  stroke-width: 1px;
+  fill: none;
+}
+
+.edge rect {
+  fill: #fff;
+}
+
+.edge path {
+  fill: none;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+div#tree-input {
+width:100%;
+}
+
+div#tree-input textarea {
+width:100%;
+height:10%;
+}
+
+div#attach {
+width:100%;
+height:85%;
+}
