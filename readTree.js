@@ -56,12 +56,12 @@ function buildGraph(t,g,c)
 
 function draw()
 {
-	d3.select("svg").remove();
-	var attach = d3.select("#attach");
-	var svg = attach.append("svg").attr('id','svg-canvas');
-	var group = svg.append("g");
+    d3.select("svg").remove();
+    var attach = d3.select("#attach");
+    var svg = attach.append("svg").attr('id','svg-canvas');
+    var group = svg.append("g");
 	      
-	var tree = document.getElementById("sentence").value;
+    var tree = document.getElementById("sentence").value.replace(/\n|\r/g,'');
 	tree = tree.replace(/\(/g,'( ').replace(/\)/g,' )');
 	console.log(tree);
 	seq = tree.match(/[^ ]+/g);
