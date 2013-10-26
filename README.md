@@ -1,7 +1,7 @@
 Visualize parsing tree in penn tree bank format.
 
 # Demo
-[http://leebird.kd.io/penn-tree-viz/readTree.html](http://leebird.kd.io/penn-tree-viz/readTree.html)
+[http://annotation.dbi.udel.edu/~ligang/penn-tree-viz/readTree.html](http://annotation.dbi.udel.edu/~ligang/penn-tree-viz/readTree.html)
 
 # Example parsing tree 
     (S
