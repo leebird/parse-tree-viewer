@@ -1,9 +1,6 @@
-Visualize parsing tree in penn tree bank format.
+Draw parse trees
 
-# Demo
-[http://annotation.dbi.udel.edu/~ligang/penn-tree-viz/readTree.html](http://annotation.dbi.udel.edu/~ligang/penn-tree-viz/readTree.html)
-
-# Example parsing tree 
+# Parse tree
     (S
       (NP (PRP I))
       (VP (VBP have)
@@ -11,6 +8,6 @@ Visualize parsing tree in penn tree bank format.
       (. .))
 
 # JS library
-[d3.js](http://d3js.org/)
+d3.js: http://d3js.org/
 
-[dagre-d3](https://github.com/cpettitt/dagre-d3)
+dagre-d3: https://github.com/cpettitt/dagre-d3
