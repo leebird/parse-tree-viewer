@@ -1,0 +1,10 @@
+{
+  "name": "parse-tree-viewer",
+  "private": true,
+  "dependencies": {
+    "d3": "3.5.3",
+    "dagre-d3": "0.4.2"
+  },
+  "devDependencies": {
+  }
+}

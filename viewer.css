@@ -1,0 +1,44 @@
+.type-TK > .label > rect {
+    fill: #fff;
+}
+
+svg, #attach {
+    height: 100%;
+    width: 100%;
+}
+
+svg {
+    border: 1px solid #999;
+}
+
+/* This sets the color for "TK" nodes to a light blue green. */
+g.type-TK > rect {
+    fill: #fff;
+}
+
+text {
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+    font-size: 14px;
+}
+
+.node rect {
+    fill: #fff;
+    stroke-width: 1.5px;
+}
+
+.edgePath path {
+    stroke: #333;
+    stroke-width: 1.5px;
+}
+
+div#tree-input textarea {
+    width: 100%;
+    height: 10%;
+}
+
+div#attach {
+    width: 100%;
+    height: 85%;
+}
+
